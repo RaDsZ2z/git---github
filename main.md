@@ -9,7 +9,8 @@ id_rsa
 '\n'
 '\n'
 public-key -> github
-git remote add origin http.... //连接git仓库
+git remote add origin https.... //连接git仓库
+//git remote rm origin 可以删除关联的远程库
 //至此就连接好仓库了 如果仓库里有东西不能直接push  例如仓库里有一个test.txt文件
 //以下方法可以  pull 修改 push
 git pull origin master
@@ -29,8 +30,20 @@ git push origin master
 ```
 # 3
 ```
-如果在 git push origin master 时
+在 git push origin master 时
 遇到  connection was reset
 先git config --global http.sslVerify "false"
 再 git push origin master 就可以了
+```
+
+
+# 4
+```
+在 git clone 时(git clone https://github.com/RaDsZ2z/test.git)
+遇到  connection was reset
+先git config --global http.sslVerify "false"
+再 git push origin master 就可以了
+注:使用git config --list查看http.sslVerify值本来就为false
+但还是要再设置为false才可以
+有说法可以使用  "git@github.com..."绕过验证 但是没有试成功
 ```
