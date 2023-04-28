@@ -1,8 +1,8 @@
 # 1
 ```
 https://blog.csdn.net/weixin_42213176/article/details/100097152
-git config --global user.name "[username]"
-git config --global user.email "[email]"
+git config --global user.name "[username]"//最好是github昵称?
+git config --global user.email "[email]"//最好是注册github的邮箱?
 git init
 ssh-keygen -t rsa –C "email"
 id_rsa
