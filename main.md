@@ -23,6 +23,9 @@ git push origin master
 ```
 似乎不能随便git push origin master
 要本地文件有更新的时候才可以
+
+将pull的东西删除之后再pull好像不会出现
+解决方法似乎是clone
 ```
 # 3
 ```
