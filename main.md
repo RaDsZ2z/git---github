@@ -18,7 +18,11 @@ git push origin master
 ```
 # 2
 ```
-//-----------------------------------------------------
+似乎不能随便git push origin master
+要本地文件有更新的时候才可以
+```
+# 3
+```
 如果在 git push origin master 时
 遇到  connection was reset
 先git config --global http.sslVerify "false"
