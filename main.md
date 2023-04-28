@@ -1,4 +1,5 @@
-```cpp
+# 1
+```
 https://blog.csdn.net/weixin_42213176/article/details/100097152
 git config --global user.name "username"
 git config --global user.email "email"
@@ -14,7 +15,9 @@ git add test.txt
 git commit -m "update"
 git push origin master
 //到这里就修改并重新上传了
-
+```
+# 2
+```
 //-----------------------------------------------------
 如果在 git push origin master 时
 遇到  connection was reset
