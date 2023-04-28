@@ -5,6 +5,9 @@ git config --global user.name "[username]"
 git config --global user.email "[email]"
 git init
 ssh-keygen -t rsa –C "email"
+id_rsa
+'\n'
+'\n'
 public-key -> github
 git remote add origin http.... //连接git仓库
 //至此就连接好仓库了 如果仓库里有东西不能直接push  例如仓库里有一个test.txt文件
