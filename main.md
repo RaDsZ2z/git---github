@@ -30,15 +30,6 @@ git push origin master
 ```
 # 3
 ```
-在 git push origin master 时
-遇到  connection was reset
-先git config --global http.sslVerify "false"
-再 git push origin master 就可以了
-```
-
-
-# 4
-```
 在 git clone 时(git clone https://github.com/RaDsZ2z/test.git)
 遇到  connection was reset
 先git config --global http.sslVerify "false"
@@ -47,3 +38,13 @@ git push origin master
 但还是要再设置为false才可以
 有说法可以使用  "git@github.com..."绕过验证 但是没有试成功
 ```
+# 4
+```
+在 git push origin master 时
+遇到  connection was reset
+先git config --global http.sslVerify "false"
+再 git push origin master 就可以了
+```
+
+
+
